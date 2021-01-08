@@ -1,0 +1,222 @@
+*
+    {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+    }
+    /*  Header Session */
+    .header {
+        background-color: transparent; 
+    }
+    .header img {
+        margin-left:10px;
+        background: rgba(175, 175, 175, 0.672);
+        border: 0px;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    div .sub-header {
+        float: right;
+        text-align: left;
+        padding: 20px 10px 20px 10px;
+    }
+    .sub-header a{
+        padding: 30px;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
+    .sub-header a:hover{
+        color: red;
+    }
+    /*  ------------  
+    .hero
+    {
+        min-width: 10%;
+        width: 100%;
+        height: 100vh;
+        margin-top: -50px;
+        background-image: url(image/red.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    } */
+    .ml3
+    {
+        padding-top: 250px;
+        padding-left: 5%;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5em;
+        font-weight: 900;
+        color: white;
+    }
+    .sub-title
+    {
+        min-width: 270px;
+        padding:10px;
+        max-width: 600px;
+        margin-left: 5%;
+        color: white;
+        letter-spacing: .2em;
+        text-align: justify;
+
+    }
+    .btn
+    {
+        margin-left: 5%;
+        width: 120px;
+        color: white;
+        border: 0px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+    }
+    .btn:hover{
+        background-color: blue;
+        color: white;
+    }
+    #mission
+    {
+        width: 100%;
+        padding: 30px;
+        background-color: rgb(237, 235, 235);
+    }
+    #mission h1
+    {
+        margin: 20px;
+        text-align: center;
+    }
+    .icon
+    {
+        height: 80px;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .mission-title
+    {
+        margin: 10px;
+    }
+    .mission-title:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .mission-text
+    {
+        text-align: justify;
+        color:rgb(111, 109, 109);
+        cursor: pointer;
+    }
+    .mission-text:hover{
+        color: black;
+    }
+    /*  Footer Session */
+    .social
+    {
+        width: 100%;
+        background-color: rgb(211, 211, 211);
+        padding: 20px;
+    }
+
+    .social span
+    {
+        padding-left: 20px;
+    }
+    .social-icon
+    {
+        padding: 10px;
+    }
+    .social-icon a{
+        cursor: pointer;
+        text-decoration: none;
+        color: grey;
+    }
+    .footer span
+    {
+        font-family: 'calibri';
+        font-weight: 800;
+        color: green;
+    }
+    .footer label
+    {
+        font-family: 'calibri';
+        font-weight: 800;
+        color: red;
+    }
+
+    @media screen and (max-width: 900px){
+        .ml3
+        {
+            padding-top: 250px;
+            padding-left: 5%;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5em;
+            font-weight: 900;
+            color: white;
+        }
+    }
+
+
+    @media screen and (max-width: 700px){
+        .ml3
+        {
+            padding-top: 250px;
+            padding-left: 5%;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            font-weight: 900;
+            color: white;
+        }
+        .sub-title
+        {
+            padding:10px;
+            max-width: 500px;
+            margin-left: 5%;
+            color: white;
+            letter-spacing: .2em;
+            text-align: justify;
+
+        }
+    }
+
+    @media screen and (max-width: 500px){
+        .ml3
+        {
+            padding-top: 250px;
+            padding-left: 5%;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            font-weight: 900;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        .ml3
+        {
+            padding-top: 200px;
+            padding-left: 5%;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            font-weight: 900;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 370px){
+        .ml3
+        {
+            padding-top: 150px;
+            padding-left: 5%;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5em;
+            font-weight: 900;
+            color: white;
+        }
+    }

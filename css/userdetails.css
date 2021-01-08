@@ -1,0 +1,92 @@
+*
+{
+    font-family: 'calibri';
+    margin: 0px;
+    padding: 0px;
+}
+/*.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/gif.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+.ml3
+{
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: white;
+    padding-top: 20px;
+}
+
+.container
+{
+    margin: 2%;
+    width: 350px;
+    height: 550px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    background: white;
+    box-shadow: 0 0 50px 10px grey;
+    background-attachment: fixed;
+
+}
+.logo
+{
+    margin: 6% auto 4% auto;
+    height: 100px;
+}
+table tr td
+{
+    text-align: left;
+    padding-bottom: 25px;
+}
+.required
+{
+    color: red;
+}
+.input
+{
+    width: 160px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    outline: none;
+    padding: 5px;
+}
+.btn
+{
+    width: 120px;
+    height: 30px;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    transition: .4s;
+    font-weight: 1000;
+    font-family: 'calibri';
+    outline: none;
+}
+.btn:hover
+{
+    background-color: blue;
+    color: white;
+}
+@media screen and (max-width: 500px){
+    .ml3
+    {
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        font-weight: 900;
+        color: white;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'calibri';
+}
+.container{
+    width: 400px !important;
+    height: 300px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    margin: 7% auto;
+}
+.container .logo{
+    margin: 20px;
+}
+.container .text{
+    width: 300px;
+}
+.footer{
+    font-weight: 1000;
+}
+.left {
+    color: green;
+}
+.right{
+    color: red;
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 350px !important;
+        margin: 200px;
+    }
+}
